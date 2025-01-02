@@ -1,6 +1,6 @@
 # PSO2 NGS Guide Website (ngs.gg)
 
-A comprehensive guide and resource hub for **Phantasy Star Online 2: New Genesis (PSO2 NGS)** players, providing detailed information on classes, weapons, techniques, tier lists, and more.
+A comprehensive guide and resource hub for **Phantasy Star Online 2: New Genesis (PSO2 NGS)** players, providing detailed information on classes, weapons, techniques, tier lists, and more. (OUT OF DATE AS OF 2024)
 
 ## Description
 
