@@ -71,7 +71,7 @@ For common issues:
 ## Authors
 
 - **Tate Judice**  
-- Website: [ngs.gg](https://example.com)  
+- Website: [ngs.gg]([https://example.com](https://tate-judice.github.io/ngs.gg/)  
 - Contact: [tate.judice@gmail.com](mailto:tate.judice@gmail.com)  
 
 ## Version History
