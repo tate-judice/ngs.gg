@@ -78,8 +78,6 @@ For common issues:
 
 - **1.0**  
    - Initial Release  
-- **1.1**  
-   - Bug fixes and content updates  
 
 For detailed changes, see [commit history](#).
 
