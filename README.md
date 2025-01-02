@@ -34,7 +34,7 @@ git clone https://github.com/tate-judice/ngs.gg.git
 2. Navigate to the project folder:
 
 ```bash
-cd ps02-ngs-guide
+cd ngs.gg
 ```
 
 3. Open `index.html` in your browser.
