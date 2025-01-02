@@ -1,0 +1,958 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link href="../assets/img/page/favicon-s.png" rel="icon" />
+    <meta content="width=device-width,initial-scale=1" name="viewport" />
+    <meta content="#000000" name="theme-color" />
+    <link href="../manifest.json" rel="manifest" />
+    <meta content="NGS.GG" data-react-helmet="true" property="og:site_name" />
+    <meta content="website" data-react-helmet="true" property="og:type" />
+    <meta
+      content="https://lh3.googleusercontent.com/GVPZ8diJ7uzRal99n_xI9qsQ-LavqRPMhKi05Vw35lZX7Nu8i9VDGlMiDTgEL9s_5VA"
+      data-react-helmet="true"
+      property="og:image"
+    />
+    <title>PSO2 NGS Classes - ngs.gg</title>
+    <link href="../assets/css/alt.css" rel="stylesheet" />
+    <link href="../assets/css/main.css" rel="stylesheet" />
+    <link href="../assets/css/scrollbar.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <meta
+      content="Techter Class in PSO2 NGS."
+      data-react-helmet="true"
+      name="title"
+    />
+    <meta
+      content="Techter Class in PSO2 NGS."
+      data-react-helmet="true"
+      name="description"
+    />
+    <meta
+      content="PSO2 NGS Techter - ngs.gg"
+      data-react-helmet="true"
+      property="og:title"
+    />
+    <meta
+      content="Techter Class in PSO2 NGS."
+      data-react-helmet="true"
+      property="og:description"
+    />
+    <meta content="summary" data-react-helmet="true" name="twitter:card" />
+    <meta
+      content="PSO2 NGS Techter - ngs.gg"
+      data-react-helmet="true"
+      name="twitter:title"
+    />
+    <meta
+      content="Techter Class in PSO2 NGS."
+      data-react-helmet="true"
+      name="twitter:description"
+    />
+    <meta
+      content="https://lh3.googleusercontent.com/GVPZ8diJ7uzRal99n_xI9qsQ-LavqRPMhKi05Vw35lZX7Nu8i9VDGlMiDTgEL9s_5VA"
+      data-react-helmet="true"
+      name="twitter:image"
+    />
+    <link href="https://rerollcdn.com" rel="preconnect" />
+    <link href="https://fonts.gstatic.com" rel="preconnect" />
+  </head>
+  <body>
+    <div id="root">
+      <div class="App d-flex flex-column GenshinImpact">
+        <nav class="header">
+          <div class="toolbar">
+            <div class="toolbar-active">
+              <a href="../index.html" class="brand active" aria-current="page"
+                ><img
+                  alt="ngs.gg logo"
+                  class="brand-icon"
+                  src="../assets/img/page/brand-icon.png"
+              /></a>
+            </div>
+            <div class="hamburger">
+              <div class="hamburger-box">
+                <div class="hamburger-inner"></div>
+              </div>
+            </div>
+            <div class="mobile-menu">
+              <ul class="mobile-links">
+                <li class="mobile-item">
+                  <a
+                    href="../index.html"
+                    class="mobile-link active"
+                    aria-current="page"
+                    >Classes</a
+                  >
+                </li>
+                <li class="mobile-item">
+                  <a href="../teams.html" class="mobile-link">Teams</a>
+                </li>
+                <li class="mobile-item">
+                  <a href="../tier-list.html" class="mobile-link">Tier List</a>
+                </li>
+                <li class="mobile-item">
+                  <a href="../augments.html" class="mobile-link">Augment Guide</a>
+                </li>
+                <li class="mobile-item">
+                  <a href="../weapons.html" class="mobile-link">Weapons</a>
+                </li>
+                <li class="mobile-item">
+                  <a href="../units.html" class="mobile-link">Units</a>
+                </li>
+                <li class="mobile-item">
+                  <a href="../techniques.html" class="mobile-link">Techniques</a>
+                </li>
+                <li class="mobile-item">
+                  <a href="../food.html" class="mobile-link">Food</a>
+                </li>
+                <li class="mobile-item">
+                  <a href="../boosts.html" class="mobile-link">Boosts</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="nav">
+            <ul class="nav-links">
+              <li class="nav-item">
+                <a href="../index.html" class="nav-link" aria-current="page">Classes</a>
+              </li>
+              <li class="nav-item">
+                <a href="../teams.html" class="nav-link">Teams</a>
+              </li>
+              <li class="nav-item">
+                <a href="../tier-list.html" class="nav-link">Tier List</a>
+              </li>
+              <li class="nav-item">
+                <a href="../augments.html" class="nav-link">Augment Guide</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  aria-expanded="false"
+                  aria-haspopup="true"
+                  data-toggle="dropdown"
+                  id="navbarDropdown"
+                  role="button"
+                  >Database<i class="arrow down"></i
+                ></a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a href="../weapons.html" class="nav-link">Weapons</a
+                  ><a href="../units.html" class="nav-link">Units</a
+                  ><a href="../techniques.html" class="nav-link">Techniques</a
+                  ><a href="../food.html" class="nav-link">Food</a
+                  ><a href="../boosts.html" class="nav-link">Boosts</a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <section class="container">
+          <div id="nn_skinr"></div>
+          <div id="nn_skinl"></div>
+          <div class="row">
+            <main class="content">
+              <div class="character">
+                <div class="character-intro">
+                  <img
+                    class="character-portrait"
+                    src="../assets/img/class/techter.png"
+                    alt=""
+                  />
+                  <div class="character-header">
+                    <div class="character-title">
+                      <h1 class="character-name">Techter</h1>
+                      <img
+                        class="character-element"
+                        src="../assets/img/class/large-wep/tech.png"
+                        alt=""
+                      />
+                    </div>
+                    <div class="character-path">
+                      ⠀Weapons:
+                    </div>
+                    <div class="character-role">
+                      <img
+                        class="character-path-icon"
+                        src="../assets/img/class/weps/wand.png"
+                        alt=""
+                      />⠀Wand
+                    </div>
+                    <div class="character-role">
+                      <img
+                        class="character-path-icon"
+                        src="../assets/img/class/weps/talis.png"
+                        alt=""
+                      />⠀Talis
+                    </div>
+                  </div>
+                  <div class="character-build">
+                    <div class="character-build-section">
+                      <h2 class="character-build-section-title">Best Wands</h2>
+
+                      <a href="../weapons.html">
+                        <div class="character-build-weapon">
+                          <div class="character-build-weapon-rank">1</div>
+
+                          <img
+                            class="character-build-weapon-icon rarity-5"
+                            src="../assets/img/weapons/wand/NeosAstraeanWand.png"
+                            alt=""
+                          />
+                          <div class="character-build-weapon-name">
+                            Neos Astraean <span>BIS</span>
+                          </div>
+                        </div>
+                      </a>
+
+                      <a href="../weapons.html">
+                        <div class="character-build-weapon">
+                          <div class="character-build-weapon-rank">2</div>
+                          <img
+                            class="character-build-weapon-icon rarity-4"
+                            src="../assets/img/weapons/wand/NeosJustiteanWand.png"
+                            alt=""
+                          />
+                          <div class="character-build-weapon-name">
+                            Neos Justitean
+                          </div>
+                        </div>
+                      </a>
+
+                      <a href="../weapons.html">
+                        <div class="character-build-weapon">
+                          <div class="character-build-weapon-rank">3</div>
+                          <img
+                            class="character-build-weapon-icon rarity-3"
+                            src="../assets/img/weapons/wand/TenebrousWand.png"
+                            alt=""
+                          />
+                          <div class="character-build-weapon-name">
+                            Tenebrous <span>Not Recommended</span>
+                          </div>
+                        </div>
+                      </a>
+
+                      <a href="../weapons.html">
+                        <div class="character-build-weapon">
+                          <div class="character-build-weapon-rank">4</div>
+                          <img
+                            class="character-build-weapon-icon rarity-2"
+                            src="../assets/img/weapons/wand/GunblazeWand.png"
+                            alt=""
+                          />
+                          <div class="character-build-weapon-name">
+                            Gunblaze <span>Needs High Fixa</span>
+                          </div>
+                        </div>
+                      </a>
+
+                      <a href="../weapons.html">
+                        <div class="character-build-weapon">
+                          <div class="character-build-weapon-rank">5</div>
+                          <img
+                            class="character-build-weapon-icon"
+                            src="../assets/img/weapons/wand/TrunkulWand.png"
+                            alt=""
+                          />
+                          <div class="character-build-weapon-name">
+                            Trunkul Sword <span>Seasonal</span>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+
+                    <div class="character-build-section">
+                      <h2 class="character-build-section-title">
+                        Best Talis
+                      </h2>
+
+                      <a href="../weapons.html">
+                        <div class="character-build-weapon">
+                          <div class="character-build-weapon-rank">1</div>
+
+                          <img
+                            class="character-build-weapon-icon rarity-5"
+                            src="../assets/img/weapons/talis/NeosAstraeanTalis.png"
+                            alt=""
+                          />
+                          <div class="character-build-weapon-name">
+                            Neos Astraean <span>BIS</span>
+                          </div>
+                        </div>
+                      </a>
+
+                      <a href="../weapons.html">
+                        <div class="character-build-weapon">
+                          <div class="character-build-weapon-rank">2</div>
+                          <img
+                            class="character-build-weapon-icon rarity-4"
+                            src="../assets/img/weapons/talis/NeosJustiteanTalis.png"
+                            alt=""
+                          />
+                          <div class="character-build-weapon-name">
+                            Neos Justitean
+                          </div>
+                        </div>
+                      </a>
+
+                      <a href="../weapons.html">
+                        <div class="character-build-weapon">
+                          <div class="character-build-weapon-rank">3</div>
+                          <img
+                            class="character-build-weapon-icon rarity-3"
+                            src="../assets/img/weapons/talis/TenebrousTalis.png"
+                            alt=""
+                          />
+                          <div class="character-build-weapon-name">
+                            Tenebrous Spear <span>Not Recommended</span>
+                          </div>
+                        </div>
+                      </a>
+
+                      <a href="../weapons.html">
+                        <div class="character-build-weapon">
+                          <div class="character-build-weapon-rank">4</div>
+                          <img
+                            class="character-build-weapon-icon rarity-2"
+                            src="../assets/img/weapons/talis/GunblazeTalis.png"
+                            alt=""
+                          />
+                          <div class="character-build-weapon-name">
+                            Gunblaze Spear <span>Needs High Fixa</span>
+                          </div>
+                        </div>
+                      </a>
+
+                      <a href="../weapons.html">
+                        <div class="character-build-weapon">
+                          <div class="character-build-weapon-rank">5</div>
+                          <img
+                            class="character-build-weapon-icon"
+                            src="../assets/img/weapons/talis/TrunkulTalis.png"
+                            alt=""
+                          />
+                          <div class="character-build-weapon-name">
+                            Trunkul Spear <span>Seasonal</span>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+
+                  <div class="character-build">
+
+                    <div class="character-build-section">
+                      <h2 class="character-build-section-title">Best Units</h2>
+
+                      <a href="../units.html">
+                        <div class="character-build-weapon">
+                          <div class="character-build-weapon-rank">1</div>
+                          <div class="character-build-weapon-content full">
+                            <img
+                              class="character-build-weapon-icon rarity-5"
+                              src="../assets/img/units/EclaireurArmor.png"
+                              alt=""
+                            />
+                            <div class="character-build-weapon-name">
+                              Eclaireur Armor
+                            </div>
+                          </div>
+                        </div>
+                      </a>
+
+                      <a href="../units.html">
+                        <div class="character-build-weapon">
+                          <div class="character-build-weapon-rank">2</div>
+                          <div class="character-build-weapon-content full">
+                            <img
+                              class="character-build-weapon-icon rarity-4"
+                              src="../assets/img/units/AjaxArmor.png"
+                              alt=""
+                            />
+                            <div class="character-build-weapon-name">
+                              Ajax Armor
+                            </div>
+                          </div>
+                        </div>
+                      </a>
+
+                      <a href="../units.html">
+                        <div class="character-build-weapon">
+                          <div class="character-build-weapon-rank">3</div>
+                          <div class="character-build-weapon-content full">
+                            <img
+                              class="character-build-weapon-icon rarity-3"
+                              src="../assets/img/units/EfitusArmorBelta.png"
+                              alt=""
+                            />
+                            <div class="character-build-weapon-name">
+                              Efitus Armor Belta <span>Tech / Ranged</span>
+                            </div>
+                          </div>
+                        </div>
+                      </a>
+ 
+                      <a href="../units.html">
+                        <div class="character-build-weapon">
+                          <div class="character-build-weapon-rank">3</div>
+                          <div class="character-build-weapon-content full">
+                            <img
+                              class="character-build-weapon-icon rarity-3"
+                              src="../assets/img/units/EfitusArmorSheza.png"
+                              alt=""
+                            />
+                            <div class="character-build-weapon-name">
+                              Efitus Armor Sheza <span>Tech / Melee</span>
+                            </div>
+                          </div>
+                        </div>
+                      </a>
+
+                      <a href="../units.html">
+                        <div class="character-build-weapon">
+                          <div class="character-build-weapon-rank">4</div>
+                          <div class="character-build-weapon-content full">
+                            <img
+                              class="character-build-weapon-icon rarity-2"
+                              src="../assets/img/units/SchwarzestArmor.png"
+                              alt=""
+                            />
+                            <div class="character-build-weapon-name">
+                              Schwarzest Armor
+                            </div>
+                          </div>
+                        </div>
+                      </a>
+
+
+                    </div>
+                  </div>
+
+                  <div class="character-stats">
+                    <h2 class="character-stats-title">Best Subclasses</h2>
+                    <div class="character-stats-item full">
+                      Bouncer > Force
+                    </div>
+                  </div>
+                  <a
+                    class="character-credit"
+                    href="https://docs.google.com/document/d/1B7BoVLREksH3GOggKDbW3XPYUsV9E1jWJqxhzW2Cyjw/edit"
+                    target="_blank"
+                    >Class Builds by Cathy →</a
+                  >
+                </div>
+                <div class="character-navigation">
+                  <a class="character-navigation-link">Teams</a
+                  ><a class="character-navigation-link">Passives</a
+                  ><a class="character-navigation-link">Actives</a
+                  ><a class="character-navigation-link">Showcase</a>
+                </div>
+                <div class="character-teams" id="teams">
+                  <h2 class="character-category">Example Teams</h2>
+                  <div class="character-team">
+                    <div class="character-team-name">Techter Fits in Any Team</div>
+                    <div class="character-team-characters">
+                      <a href="ranger.html" class="character-portrait"
+                      ><img
+                        alt=""
+                        class="character-icon ranged"
+                        src="../assets/img/class/ranger.png"
+                      /></a
+                    >
+
+                    <a href="gunner.html" class="character-portrait"
+                      ><img
+                        alt=""
+                        class="character-icon ranged"
+                        src="../assets/img/class/gunner.png"
+                      /></a
+                    >
+
+                    <a href="fighter.html" class="character-portrait"
+                      ><img
+                        alt=""
+                        class="character-icon melee"
+                        src="../assets/img/class/fighter.png"
+                      /></a
+                    >
+
+                    <a href="techter.html" class="character-portrait"
+                      ><img
+                        alt=""
+                        class="character-icon tech"
+                        src="../assets/img/class/techter.png"
+                      /></a
+                    >
+                    </div>
+                  </div>
+
+
+                </div>
+                <div class="character-skills" id="passives">
+                  <h2 class="character-category">Passives Skills</h2>
+                  <div class="character-skill">
+                    <div class="character-skill-header">
+                      <img
+                        class="character-skill-icon"
+                        src="../assets/img/skills/techter/Overemphasis.png"
+                        alt=""
+                      />
+                      <h3 class="character-skill-title">PP</h3>
+                    </div>
+                    <div class="character-skill-body">
+                      <h4 class="character-skill-name">Overemphasis</h4>
+                      <div class="character-skill-description">
+                        Recover PP and HP, as well as temporarily increase max PP for both yourself and other characters in your party.
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="character-skill">
+                    <div class="character-skill-header">
+                      <img
+                        class="character-skill-icon"
+                        src="../assets/img/skills/techter/RestaFieldTechter.png"
+                        alt=""
+                      />
+                      <h3 class="character-skill-title">HP</h3>
+                    </div>
+                    <div class="character-skill-body">
+                      <h4 class="character-skill-name">Resta Field Techter</h4>
+                      <div class="character-skill-description">
+                        Increases the amount of health recovered when you use Restasigne, and also heals nearby characters.
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="character-skill">
+                    <div class="character-skill-header">
+                      <img
+                        class="character-skill-icon"
+                        src="../assets/img/skills/techter/UnitedTechniques.png"
+                        alt=""
+                      />
+                      <h3 class="character-skill-title">HP</h3>
+                    </div>
+                    <div class="character-skill-body">
+                      <h4 class="character-skill-name">United Techniques: Techter</h4>
+                      <div class="character-skill-description">
+                        Enables use of Compound Techniques. Fill the Compound Technique Gauge by attacking, then use the gauge to deploy Compound Techniques.
+                        Can be stocked up to 2 times.
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="character-skill">
+                    <div class="character-skill-header">
+                      <img
+                        class="character-skill-icon"
+                        src="../assets/img/skills/techter/ShiftaDebandPartyShare.png"
+                        alt=""
+                      />
+                      <h3 class="character-skill-title">HP/DPS</h3>
+                    </div>
+                    <div class="character-skill-body">
+                      <h4 class="character-skill-name">Shifta/Deband Party Share</h4>
+                      <div class="character-skill-description">
+                        Distant characters in your party will still receive the effect of Shifta/Deband when it is used.
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="character-skill">
+                    <div class="character-skill-header">
+                      <img
+                        class="character-skill-icon"
+                        src="../assets/img/skills/techter/ShiftaEffectAdvantage.png"
+                        alt=""
+                      />
+                      <h3 class="character-skill-title">DPS</h3>
+                    </div>
+                    <div class="character-skill-body">
+                      <h4 class="character-skill-name">Shifta Effect Advantage</h4>
+                      <div class="character-skill-description">
+                        Shifta/Deband will additionally increase damage to downed enemies.
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="character-skill">
+                    <div class="character-skill-header">
+                      <img
+                        class="character-skill-icon"
+                        src="../assets/img/skills/techter/ShiftaEffectAmplifier.png"
+                        alt=""
+                      />
+                      <h3 class="character-skill-title">DPS</h3>
+                    </div>
+                    <div class="character-skill-body">
+                      <h4 class="character-skill-name">Shifta Effect Amplifier</h4>
+                      <div class="character-skill-description">
+                        Shifta/Deband will additionally increase enemy Down Factor..
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="character-skill">
+                    <div class="character-skill-header">
+                      <img
+                        class="character-skill-icon"
+                        src="../assets/img/skills/techter/DebandPPRecoveryBoost.png"
+                        alt=""
+                      />
+                      <h3 class="character-skill-title">PP</h3>
+                    </div>
+                    <div class="character-skill-body">
+                      <h4 class="character-skill-name">Deband PP Recovery Boost</h4>
+                      <div class="character-skill-description">
+                        Shifta/Deband will additionally increase natural PP recovery speed.
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="character-skill">
+                    <div class="character-skill-header">
+                      <img
+                        class="character-skill-icon"
+                        src="../assets/img/skills/techter/DebandWardBadCondition.png"
+                        alt=""
+                      />
+                      <h3 class="character-skill-title">HP</h3>
+                    </div>
+                    <div class="character-skill-body">
+                      <h4 class="character-skill-name">Deband Ward Bad Condition</h4>
+                      <div class="character-skill-description">
+                        Shifta/Deband will additionally increase status aliment resistance.
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="character-skill">
+                    <div class="character-skill-header">
+                      <img
+                        class="character-skill-icon"
+                        src="../assets/img/skills/techter/ReverseBounty.png"
+                        alt=""
+                      />
+                      <h3 class="character-skill-title">HP</h3>
+                    </div>
+                    <div class="character-skill-body">
+                      <h4 class="character-skill-name">Reverse Bounty</h4>
+                      <div class="character-skill-description">
+                        Confers Shifta/Deband to a revived ally.
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="character-skill">
+                    <div class="character-skill-header">
+                      <img
+                        class="character-skill-icon"
+                        src="../assets/img/skills/techter/ShiftaDebandExtension.png"
+                        alt=""
+                      />
+                      <h3 class="character-skill-title">HP/DPS</h3>
+                    </div>
+                    <div class="character-skill-body">
+                      <h4 class="character-skill-name">Shifta/Deband Extension</h4>
+                      <div class="character-skill-description">
+                        Extends the effect duration of Shifta/Deband.
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="character-skill">
+                    <div class="character-skill-header">
+                      <img
+                        class="character-skill-icon"
+                        src="../assets/img/skills/techter/LongRangeShiftaDeband.png"
+                        alt=""
+                      />
+                      <h3 class="character-skill-title">HP/DPS</h3>
+                    </div>
+                    <div class="character-skill-body">
+                      <h4 class="character-skill-name">Long Range Shifta Deband</h4>
+                      <div class="character-skill-description">
+                        Launches Shifta/Deband forward. Shares the same cooldown time with normal Shifta/Deband.
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="character-skill">
+                    <div class="character-skill-header">
+                      <img
+                        class="character-skill-icon"
+                        src="../assets/img/skills/techter/TalisBloomAfterPPGain.png"
+                        alt=""
+                      />
+                      <h3 class="character-skill-title">PP</h3>
+                    </div>
+                    <div class="character-skill-body">
+                      <h4 class="character-skill-name">Talis Bloom After PP Gain</h4>
+                      <div class="character-skill-description">
+                        At the end of a Talis deployment triggered by a Photon Art, you recover PP based on the number of times a Technique was used while it was deployed.
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="character-skill">
+                    <div class="character-skill-header">
+                      <img
+                        class="character-skill-icon"
+                        src="../assets/img/skills/techter/WandLoversLineForce.png"
+                        alt=""
+                      />
+                      <h3 class="character-skill-title">DPS</h3>
+                    </div>
+                    <div class="character-skill-body">
+                      <h4 class="character-skill-name">Wand Lovers Line Force</h4>
+                      <div class="character-skill-description">
+                        The speed and potency of your normal attacks increases during Wand Lovers.
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="character-skill">
+                    <div class="character-skill-header">
+                      <img
+                        class="character-skill-icon"
+                        src="../assets/img/skills/techter/TrickyCapacitorGaugeAmplifier.png"
+                        alt=""
+                      />
+                      <h3 class="character-skill-title">DPS</h3>
+                    </div>
+                    <div class="character-skill-body">
+                      <h4 class="character-skill-name">Tricky Capacitor Gauge Amplifier</h4>
+                      <div class="character-skill-description">
+                        While your Talis is deployed due to a Photon Art, the level of your Tricky Capacitor gauge increases when you attack an enemy's elemental weak point with a Technique.
+                      </div>
+                    </div>
+                  </div>
+
+                
+                </div>
+                <!-- Active Sills -->
+                <div class="character-skills" id="actives">
+                  <h2 class="character-category">Active Skills</h2>
+                  <div class="character-skill">
+                    <div class="character-skill-header">
+                      <img
+                        class="character-skill-icon"
+                        src="../assets/img/skills/techter/ShiftaDeband.png"
+                        alt="Flower of Eden"
+                      />
+                      <h3 class="character-skill-title">HP</h3>
+                    </div>
+                    <div class="character-skill-body">
+                      <h4 class="character-skill-name">Shifta/Deband</h4>
+                      <div class="character-skill-description">
+                        Increases damage dealt to enemies, and decreases damage taken by you and nearby characters for a set time.
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="character-skill">
+                    <div class="character-skill-header">
+                      <img
+                        class="character-skill-icon"
+                        src="../assets/img/skills/techter/WandLovers.png"
+                        alt="Flower of Eden"
+                      />
+                      <h3 class="character-skill-title">HP</h3>
+                    </div>
+                    <div class="character-skill-body">
+                      <h4 class="character-skill-name">Wand Lovers</h4>
+                      <div class="character-skill-description">
+                        Adds the effect of attack deflection to Normal Attacks and negates knockback and launches for a set time.
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="character-skill">
+                    <div class="character-skill-header">
+                      <img
+                        class="character-skill-icon"
+                        src="../assets/img/skills/techter/TrickyCapacitor.png"
+                        alt="Flower of Eden"
+                      />
+                      <h3 class="character-skill-title">DPS</h3>
+                    </div>
+                    <div class="character-skill-body">
+                      <h4 class="character-skill-name">Tricky Capacitor</h4>
+                      <div class="character-skill-description">
+                        Expend a gauge built up by attacks to fire a special long range attack.
+                      </div>
+                    </div>
+                  </div>
+
+                  
+                </div>
+                <p id="showcase"></p>
+                <h2 class="character-category">Video Showcase</h2>
+                <div class="character-showcase">
+                  <div class="character-showcase-credit">
+                    Video guide by
+                    <a href="https://www.youtube.com/@ZNRenova" target="_blank"
+                      >ZNRenova</a
+                    >.
+                    <a href="https://www.youtube.com/@ZNRenova" target="_blank"
+                      >Check out his content!</a
+                    >
+                  </div>
+                  <iframe
+                    class="character-showcase-video"
+                    frameborder="0"
+                    src="https://www.youtube.com/embed/WA4vVQqOEqs"
+                  ></iframe>
+                </div>
+              </div>
+            </main>
+          </div>
+        </section>
+        <footer class="footer">
+          <div class="container">
+            <div class="row">
+              <div class="col-12 col-md-5">
+                <div class="footer-meta">
+                  <a href="../index.html"
+                    ><img
+                      alt="brand"
+                      class="footer-logo"
+                      src="../assets/img/page/brand-icon.png"
+                  /></a>
+                  <p class="footer-description">
+                    <b>NGS.GG</b> is not affiliated with or endorsed by SEGA.
+                    <b>NGS.GG</b> is a Database and Tier List for the
+                    <b>Phantasy Star Online 2: New Genesis</b> game for PC, Xbox
+                    One, and Playstation 4.
+                  </p>
+                </div>
+              </div>
+              <div class="col-12 col-sm-6 col-md-2 offset-md-1">
+                <h2 class="footer-link-title">More Links</h2>
+                <ul class="footer-link-list">
+                  <li class="footer-link-item">
+                    <a
+                      class="footer-link"
+                      href="https://pso2na.arks-visiphone.com/wiki/Portal:New_Genesis"
+                      >Wiki</a
+                    >
+                  </li>
+                  <li class="footer-link-item">
+                    <a
+                      class="footer-link"
+                      href="https://pso2na.arks-visiphone.com/wiki/Portal:New_Genesis/Full_Setwear"
+                      >Fashion</a
+                    >
+                  </li>
+                  <li class="footer-link-item">
+                    <a
+                      class="footer-link"
+                      href="https://pso2na.arks-visiphone.com/wiki/Portal:New_Genesis/AC_Scratches"
+                      >AC Scratches</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <div class="col-12 col-sm-6 col-md-2 offset-md-1">
+                <h2 class="footer-link-title">Community Links</h2>
+                <ul class="footer-link-list">
+                  <li class="footer-link-item">
+                    <a
+                      class="footer-link"
+                      href="https://discord.com/invite/PSO2"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                      >Discord</a
+                    >
+                  </li>
+                  <li class="footer-link-item">
+                    <a
+                      class="footer-link"
+                      href="https://www.reddit.com/r/PSO2/"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                      >Reddit</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </footer>
+        <div id="nn_player"></div>
+      </div>
+    </div>
+  </body>
+
+  <script src="assets/js/alt.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.3/umd/popper.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.2/js/bootstrap.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      $(".dropdown-toggle").hover(
+        function () {
+          $(this).next(".dropdown-menu").stop().show();
+        },
+        function () {
+          $(this).next(".dropdown-menu").stop().hide();
+        }
+      );
+
+      $(".dropdown-menu").hover(
+        function () {
+          $(this).stop().show();
+        },
+        function () {
+          $(this).stop().hide();
+        }
+      );
+    });
+  </script>
+  <script>
+    const hamburger = document.querySelector(".hamburger");
+    const mobileMenu = document.querySelector(".mobile-menu");
+
+    hamburger.addEventListener("click", function () {
+      mobileMenu.classList.toggle("open");
+      this.classList.toggle("is-active");
+    });
+  </script>
+  <script>
+    const teamsButton = document.querySelector(
+      ".character-navigation-link:nth-child(1)"
+    );
+    const passivesButton = document.querySelector(
+      ".character-navigation-link:nth-child(2)"
+    );
+    const activesButton = document.querySelector(
+      ".character-navigation-link:nth-child(3)"
+    );
+    const showcaseButton = document.querySelector(
+      ".character-navigation-link:nth-child(4)"
+    );
+
+    teamsButton.addEventListener("click", () => {
+      const teamsSection = document.querySelector("#teams");
+      teamsSection.scrollIntoView({ behavior: "smooth" });
+    });
+
+    passivesButton.addEventListener("click", () => {
+      const passivesSection = document.querySelector("#passives");
+      passivesSection.scrollIntoView({ behavior: "smooth" });
+    });
+
+    activesButton.addEventListener("click", () => {
+      const activesSection = document.querySelector("#actives");
+      activesSection.scrollIntoView({ behavior: "smooth" });
+    });
+
+    showcaseButton.addEventListener("click", () => {
+      const showcaseSection = document.querySelector("#showcase");
+      showcaseSection.scrollIntoView({ behavior: "smooth" });
+    });
+  </script>
+</html>

@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link href="assets/img/page/favicon-s.png" rel="icon" />
+    <meta content="width=device-width,initial-scale=1" name="viewport" />
+    <meta content="#000000" name="theme-color" />
+    <link href="manifest.json" rel="manifest" />
+    <meta content="NGS.GG" data-react-helmet="true" property="og:site_name" />
+    <meta content="website" data-react-helmet="true" property="og:type" />
+    <meta
+      content="https://lh3.googleusercontent.com/GVPZ8diJ7uzRal99n_xI9qsQ-LavqRPMhKi05Vw35lZX7Nu8i9VDGlMiDTgEL9s_5VA"
+      data-react-helmet="true"
+      property="og:image"
+    />
+    <title>PSO2 NGS Classes - ngs.gg</title>
+    <link href="assets/css/alt.css" rel="stylesheet" />
+    <link href="assets/css/main.css" rel="stylesheet" />
+    <link href="assets/css/scrollbar.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <meta
+      content="A list of all the classes in PSO2 NGS."
+      data-react-helmet="true"
+      name="title"
+    />
+    <meta
+      content="A list of all the classes in PSO2 NGS."
+      data-react-helmet="true"
+      name="description"
+    />
+    <meta
+      content="PSO2 NGS Classes - ngs.gg"
+      data-react-helmet="true"
+      property="og:title"
+    />
+    <meta
+      content="A list of all the classes in PSO2 NGS."
+      data-react-helmet="true"
+      property="og:description"
+    />
+    <meta content="summary" data-react-helmet="true" name="twitter:card" />
+    <meta
+      content="PSO2 NGS Classes - ngs.gg"
+      data-react-helmet="true"
+      name="twitter:title"
+    />
+    <meta
+      content="A list of all the classes in PSO2 NGS."
+      data-react-helmet="true"
+      name="twitter:description"
+    />
+    <meta
+      content="https://lh3.googleusercontent.com/GVPZ8diJ7uzRal99n_xI9qsQ-LavqRPMhKi05Vw35lZX7Nu8i9VDGlMiDTgEL9s_5VA"
+      data-react-helmet="true"
+      name="twitter:image"
+    />
+    <link href="https://rerollcdn.com" rel="preconnect" />
+    <link href="https://fonts.gstatic.com" rel="preconnect" />
+  </head>
+  <body>
+    <div id="root">
+      <div class="App d-flex flex-column GenshinImpact">
+        <nav class="header">
+          <div class="toolbar">
+            <div class="toolbar-active">
+              <a href="index.html" class="brand active" aria-current="page"
+                ><img
+                  alt="ngs.gg logo"
+                  class="brand-icon"
+                  src="assets/img/page/brand-icon.png"
+              /></a>
+            </div>
+            <div class="hamburger">
+              <div class="hamburger-box">
+                <div class="hamburger-inner"></div>
+              </div>
+            </div>
+            <div class="mobile-menu">
+              <ul class="mobile-links">
+                <li class="mobile-item">
+                  <a
+                    href="index.html"
+                    class="mobile-link active"
+                    aria-current="page"
+                    >Classes</a
+                  >
+                </li>
+                <li class="mobile-item">
+                  <a href="teams.html" class="mobile-link">Teams</a>
+                </li>
+                <li class="mobile-item">
+                  <a href="tier-list.html" class="mobile-link">Tier List</a>
+                </li>
+                <li class="mobile-item">
+                  <a href="augments.html" class="mobile-link">Augment Guide</a>
+                </li>
+                <li class="mobile-item">
+                  <a href="weapons.html" class="mobile-link">Weapons</a>
+                </li>
+                <li class="mobile-item">
+                  <a href="units.html" class="mobile-link">Units</a>
+                </li>
+                <li class="mobile-item">
+                  <a href="techniques.html" class="mobile-link">Techniques</a>
+                </li>
+                <li class="mobile-item">
+                  <a href="food.html" class="mobile-link">Food</a>
+                </li>
+                <li class="mobile-item">
+                  <a href="boosts.html" class="mobile-link">Boosts</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="nav">
+            <ul class="nav-links">
+              <li class="nav-item">
+                <a href="index.html" class="nav-link active" aria-current="page">Classes</a>
+              </li>
+              <li class="nav-item">
+                <a href="teams.html" class="nav-link">Teams</a>
+              </li>
+              <li class="nav-item">
+                <a href="tier-list.html" class="nav-link">Tier List</a>
+              </li>
+              <li class="nav-item">
+                <a href="augments.html" class="nav-link">Augment Guide</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  aria-expanded="false"
+                  aria-haspopup="true"
+                  data-toggle="dropdown"
+                  id="navbarDropdown"
+                  role="button"
+                  >Database<i class="arrow down"></i
+                ></a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a href="weapons.html" class="nav-link">Weapons</a
+                  ><a href="units.html" class="nav-link">Units</a
+                  ><a href="techniques.html" class="nav-link">Techniques</a
+                  ><a href="food.html" class="nav-link">Food</a
+                  ><a href="boosts.html" class="nav-link">Boosts</a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <section class="container">
+          <div id="nn_skinr"></div>
+          <div id="nn_skinl"></div>
+          <div class="row">
+            <main class="content">
+              <div class="content-header">
+                <h1 class="content-title">PSO2 NGS Class List</h1>
+              </div>
+              <div class="builds-list">
+                <!-- Hunter -->
+                <div class="builds-list-item">
+                  <div class="build-character">
+                    <a href="classes/hunter.html" class="character-portrait"
+                      ><img
+                        alt=""
+                        class="character-icon"
+                        src="assets/img/class/hunter.png"
+                    /></a>
+                  </div>
+                  <div class="build-header">
+                    <div class="build-name">Hunter</div>
+                    <div class="build-role">Melee</div>
+                  </div>
+
+                  <div class="build-content2">
+                    <div class="build-weapon full">
+                      <img
+                        alt=""
+                        class="build-weapon-icon"
+                        src="assets/img/class/large-wep/sword.png"
+                      />
+                      <div class="build-weapon-name">Sword</div>
+                    </div>
+
+                    <div class="build-weapon full">
+                      <img
+                        alt=""
+                        class="build-weapon-icon"
+                        src="assets/img/class/large-wep/partizan.png"
+                      />
+                      <div class="build-weapon-name">Partizan</div>
+                    </div>
+
+                    <div class="build-weapon full">
+                      <img
+                        alt=""
+                        class="build-weapon-icon"
+                        src="assets/img/class/large-wep/wiredlance.png"
+                      />
+                      <div class="build-weapon-name">Wired Lance</div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Fighter -->
+                <div class="builds-list-item">
+                  <div class="build-character">
+                    <a href="classes/fighter.html" class="character-portrait"
+                      ><img
+                        alt=""
+                        class="character-icon"
+                        src="assets/img/class/fighter.png"
+                    /></a>
+                  </div>
+                  <div class="build-header">
+                    <div class="build-name">Fighter</div>
+                    <div class="build-role">Melee</div>
+                  </div>
+
+                  <div class="build-content2">
+                    <div class="build-weapon full">
+                      <img
+                        alt=""
+                        class="build-weapon-icon"
+                        src="assets/img/class/large-wep/knuckles.png"
+                      />
+                      <div class="build-weapon-name">Knuckles</div>
+                    </div>
+
+                    <div class="build-weapon full">
+                      <img
+                        alt=""
+                        class="build-weapon-icon"
+                        src="assets/img/class/large-wep/doublesaber.png"
+                      />
+                      <div class="build-weapon-name">Double Saber</div>
+                    </div>
+
+                    <div class="build-weapon full">
+                      <img
+                        alt=""
+                        class="build-weapon-icon"
+                        src="assets/img/class/large-wep/twindagger.png"
+                      />
+                      <div class="build-weapon-name">Twin Daggers</div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Ranger -->
+                <div class="builds-list-item">
+                  <div class="build-character">
+                    <a href="classes/ranger.html" class="character-portrait"
+                      ><img
+                        alt=""
+                        class="character-icon"
+                        src="assets/img/class/ranger.png"
+                    /></a>
+                  </div>
+                  <div class="build-header">
+                    <div class="build-name">Ranger</div>
+                    <div class="build-role">Ranged</div>
+                  </div>
+
+                  <div class="build-content2">
+                    <div class="build-weapon full">
+                      <img
+                        alt=""
+                        class="build-weapon-icon"
+                        src="assets/img/class/large-wep/rifle.png"
+                      />
+                      <div class="build-weapon-name">Rifle</div>
+                    </div>
+
+                    <div class="build-weapon full">
+                      <img
+                        alt=""
+                        class="build-weapon-icon"
+                        src="assets/img/class/large-wep/launcher.png"
+                      />
+                      <div class="build-weapon-name">Launcher</div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Gunner -->
+                <div class="builds-list-item">
+                  <div class="build-character">
+                    <a href="classes/gunner.html" class="character-portrait"
+                      ><img
+                        alt=""
+                        class="character-icon"
+                        src="assets/img/class/gunner.png"
+                    /></a>
+                  </div>
+                  <div class="build-header">
+                    <div class="build-name">Gunner</div>
+                    <div class="build-role">Ranged</div>
+                  </div>
+
+                  <div class="build-content2">
+                    <div class="build-weapon full">
+                      <img
+                        alt=""
+                        class="build-weapon-icon"
+                        src="assets/img/class/large-wep/twinmachinegun.png"
+                      />
+                      <div class="build-weapon-name">Twin Machine Gun</div>
+                    </div>
+
+                    <div class="build-weapon full">
+                      <img
+                        alt=""
+                        class="build-weapon-icon"
+                        src="assets/img/class/large-wep/rifle.png"
+                      />
+                      <div class="build-weapon-name">Rifle</div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Force -->
+                <div class="builds-list-item">
+                  <div class="build-character">
+                    <a href="classes/force.html" class="character-portrait"
+                      ><img
+                        alt=""
+                        class="character-icon"
+                        src="assets/img/class/force.png"
+                    /></a>
+                  </div>
+                  <div class="build-header">
+                    <div class="build-name">Force</div>
+                    <div class="build-role">Tech</div>
+                  </div>
+
+                  <div class="build-content2">
+                    <div class="build-weapon full">
+                      <img
+                        alt=""
+                        class="build-weapon-icon"
+                        src="assets/img/class/large-wep/rod.png"
+                      />
+                      <div class="build-weapon-name">Rod</div>
+                    </div>
+
+                    <div class="build-weapon full">
+                      <img
+                        alt="""
+                        class="build-weapon-icon"
+                        src="assets/img/class/large-wep/talis.png"
+                      />
+                      <div class="build-weapon-name">Talis</div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Techter -->
+                <div class="builds-list-item">
+                  <div class="build-character">
+                    <a href="classes/techter.html" class="character-portrait"
+                      ><img
+                        alt=""
+                        class="character-icon"
+                        src="assets/img/class/techter.png"
+                    /></a>
+                  </div>
+                  <div class="build-header">
+                    <div class="build-name">Techter</div>
+                    <div class="build-role">Tech</div>
+                  </div>
+
+                  <div class="build-content2">
+                    <div class="build-weapon full">
+                      <img
+                        alt=""
+                        class="build-weapon-icon"
+                        src="assets/img/class/large-wep/wand.png"
+                      />
+                      <div class="build-weapon-name">Wand</div>
+                    </div>
+
+                    <div class="build-weapon full">
+                      <img
+                        alt=""
+                        class="build-weapon-icon"
+                        src="assets/img/class/large-wep/talis.png"
+                      />
+                      <div class="build-weapon-name">Talis</div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Braver -->
+                <div class="builds-list-item">
+                  <div class="build-character">
+                    <a href="classes/braver.html" class="character-portrait"
+                      ><img
+                        alt=""
+                        class="character-icon"
+                        src="assets/img/class/braver.png"
+                    /></a>
+                  </div>
+                  <div class="build-header">
+                    <div class="build-name">Braver</div>
+                    <div class="build-role">Melee & Ranged</div>
+                  </div>
+
+                  <div class="build-content2">
+                    <div class="build-weapon full">
+                      <img
+                        alt=""
+                        class="build-weapon-icon"
+                        src="assets/img/class/large-wep/katana.png"
+                      />
+                      <div class="build-weapon-name">
+                        Katana <span>Melee</span>
+                      </div>
+                    </div>
+
+                    <div class="build-weapon full">
+                      <img
+                        alt=""
+                        class="build-weapon-icon"
+                        src="assets/img/class/large-wep/bow.png"
+                      />
+                      <div class="build-weapon-name">
+                        Bow <span>Ranged</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Bouncer -->
+                <div class="builds-list-item">
+                  <div class="build-character">
+                    <a href="classes/bouncer.html" class="character-portrait"
+                      ><img
+                        alt=""
+                        class="character-icon"
+                        src="assets/img/class/bouncer.png"
+                    /></a>
+                  </div>
+                  <div class="build-header">
+                    <div class="build-name">Bouncer</div>
+                    <div class="build-role">Melee & Tech</div>
+                  </div>
+
+                  <div class="build-content2">
+                    <div class="build-weapon full">
+                      <img
+                        alt=""
+                        class="build-weapon-icon"
+                        src="assets/img/class/large-wep/jetboots.png"
+                      />
+                      <div class="build-weapon-name">
+                        Jet Boots <span>Tech</span>
+                      </div>
+                    </div>
+
+                    <div class="build-weapon full">
+                      <img
+                        alt=""
+                        class="build-weapon-icon"
+                        src="assets/img/class/large-wep/soaringblades.png"
+                      />
+                      <div class="build-weapon-name">
+                        Soaring Blades <span>Melee</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Waker -->
+                <div class="builds-list-item">
+                  <div class="build-character">
+                    <a href="classes/waker.html" class="character-portrait"
+                      ><img
+                        alt=""
+                        class="character-icon"
+                        src="assets/img/class/waker.png"
+                    /></a>
+                  </div>
+                  <div class="build-header">
+                    <div class="build-name">Waker</div>
+                    <div class="build-role">Tech</div>
+                  </div>
+
+                  <div class="build-content2">
+                    <div class="build-weapon full">
+                      <img
+                        alt=""
+                        class="build-weapon-icon"
+                        src="assets/img/class/large-wep/harmonizer.png"
+                      />
+                      <div class="build-weapon-name">Harmonizer</div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Slayer -->
+                <div class="builds-list-item">
+                  <div class="build-character">
+                    <a href="classes/slayer.html" class="character-portrait"
+                      ><img
+                        alt=""
+                        class="character-icon"
+                        src="assets/img/class/slayer.png"
+                    /></a>
+                  </div>
+                  <div class="build-header">
+                    <div class="build-name">Slayer</div>
+                    <div class="build-role">Ranged</div>
+                  </div>
+
+                  <div class="build-content2">
+                    <div class="build-weapon full">
+                      <img
+                        alt=""
+                        class="build-weapon-icon"
+                        src="assets/img/class/large-wep/gunblade.png"
+                      />
+                      <div class="build-weapon-name">Gunblade</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </main>
+          </div>
+        </section>
+        <footer class="footer">
+          <div class="container">
+            <div class="row">
+              <div class="col-12 col-md-5">
+                <div class="footer-meta">
+                  <a href="index.html"
+                    ><img
+                      alt="brand"
+                      class="footer-logo"
+                      src="assets/img/page/brand-icon.png"
+                  /></a>
+                  <p class="footer-description">
+                    <b>NGS.GG</b> is not affiliated with or endorsed by SEGA.
+                    <b>NGS.GG</b> is a Database and Tier List for the
+                    <b>Phantasy Star Online 2: New Genesis</b> game for PC, Xbox
+                    One, and Playstation 4.
+                  </p>
+                </div>
+              </div>
+              <div class="col-12 col-sm-6 col-md-2 offset-md-1">
+                <h2 class="footer-link-title">More Links</h2>
+                <ul class="footer-link-list">
+                  <li class="footer-link-item">
+                    <a
+                      class="footer-link"
+                      href="https://pso2na.arks-visiphone.com/wiki/Portal:New_Genesis"
+                      >Wiki</a
+                    >
+                  </li>
+                  <li class="footer-link-item">
+                    <a
+                      class="footer-link"
+                      href="https://pso2na.arks-visiphone.com/wiki/Portal:New_Genesis/Full_Setwear"
+                      >Fashion</a
+                    >
+                  </li>
+                  <li class="footer-link-item">
+                    <a
+                      class="footer-link"
+                      href="https://pso2na.arks-visiphone.com/wiki/Portal:New_Genesis/AC_Scratches"
+                      >AC Scratches</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <div class="col-12 col-sm-6 col-md-2 offset-md-1">
+                <h2 class="footer-link-title">Community Links</h2>
+                <ul class="footer-link-list">
+                  <li class="footer-link-item">
+                    <a
+                      class="footer-link"
+                      href="https://discord.com/invite/PSO2"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                      >Discord</a
+                    >
+                  </li>
+                  <li class="footer-link-item">
+                    <a
+                      class="footer-link"
+                      href="https://www.reddit.com/r/PSO2/"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                      >Reddit</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </footer>
+        <div id="nn_player"></div>
+      </div>
+    </div>
+  </body>
+
+  <script src="assets/js/alt.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.3/umd/popper.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.2/js/bootstrap.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      $(".dropdown-toggle").hover(
+        function () {
+          $(this).next(".dropdown-menu").stop().show();
+        },
+        function () {
+          $(this).next(".dropdown-menu").stop().hide();
+        }
+      );
+
+      $(".dropdown-menu").hover(
+        function () {
+          $(this).stop().show();
+        },
+        function () {
+          $(this).stop().hide();
+        }
+      );
+    });
+  </script>
+  <script>
+    const hamburger = document.querySelector(".hamburger");
+    const mobileMenu = document.querySelector(".mobile-menu");
+
+    hamburger.addEventListener("click", function () {
+      mobileMenu.classList.toggle("open");
+      this.classList.toggle('is-active');
+    });
+  </script>
+</html>

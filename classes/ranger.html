@@ -1,0 +1,790 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link href="../assets/img/page/favicon-s.png" rel="icon" />
+    <meta content="width=device-width,initial-scale=1" name="viewport" />
+    <meta content="#000000" name="theme-color" />
+    <link href="../manifest.json" rel="manifest" />
+    <meta content="NGS.GG" data-react-helmet="true" property="og:site_name" />
+    <meta content="website" data-react-helmet="true" property="og:type" />
+    <meta
+      content="https://lh3.googleusercontent.com/GVPZ8diJ7uzRal99n_xI9qsQ-LavqRPMhKi05Vw35lZX7Nu8i9VDGlMiDTgEL9s_5VA"
+      data-react-helmet="true"
+      property="og:image"
+    />
+    <title>PSO2 NGS Classes - ngs.gg</title>
+    <link href="../assets/css/alt.css" rel="stylesheet" />
+    <link href="../assets/css/main.css" rel="stylesheet" />
+    <link href="../assets/css/scrollbar.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <meta
+      content="Ranger Class in PSO2 NGS."
+      data-react-helmet="true"
+      name="title"
+    />
+    <meta
+      content="Ranger Class in PSO2 NGS."
+      data-react-helmet="true"
+      name="description"
+    />
+    <meta
+      content="PSO2 NGS Ranger - ngs.gg"
+      data-react-helmet="true"
+      property="og:title"
+    />
+    <meta
+      content="Ranger Class in PSO2 NGS."
+      data-react-helmet="true"
+      property="og:description"
+    />
+    <meta content="summary" data-react-helmet="true" name="twitter:card" />
+    <meta
+      content="PSO2 NGS Ranger - ngs.gg"
+      data-react-helmet="true"
+      name="twitter:title"
+    />
+    <meta
+      content="Ranger Class in PSO2 NGS."
+      data-react-helmet="true"
+      name="twitter:description"
+    />
+    <meta
+      content="https://lh3.googleusercontent.com/GVPZ8diJ7uzRal99n_xI9qsQ-LavqRPMhKi05Vw35lZX7Nu8i9VDGlMiDTgEL9s_5VA"
+      data-react-helmet="true"
+      name="twitter:image"
+    />
+    <link href="https://rerollcdn.com" rel="preconnect" />
+    <link href="https://fonts.gstatic.com" rel="preconnect" />
+  </head>
+  <body>
+    <div id="root">
+      <div class="App d-flex flex-column GenshinImpact">
+        <nav class="header">
+          <div class="toolbar">
+            <div class="toolbar-active">
+              <a href="../index.html" class="brand active" aria-current="page"
+                ><img
+                  alt="ngs.gg logo"
+                  class="brand-icon"
+                  src="../assets/img/page/brand-icon.png"
+              /></a>
+            </div>
+            <div class="hamburger">
+              <div class="hamburger-box">
+                <div class="hamburger-inner"></div>
+              </div>
+            </div>
+            <div class="mobile-menu">
+              <ul class="mobile-links">
+                <li class="mobile-item">
+                  <a
+                    href="../index.html"
+                    class="mobile-link active"
+                    aria-current="page"
+                    >Classes</a
+                  >
+                </li>
+                <li class="mobile-item">
+                  <a href="../teams.html" class="mobile-link">Teams</a>
+                </li>
+                <li class="mobile-item">
+                  <a href="../tier-list.html" class="mobile-link">Tier List</a>
+                </li>
+                <li class="mobile-item">
+                  <a href="../augments.html" class="mobile-link">Augment Guide</a>
+                </li>
+                <li class="mobile-item">
+                  <a href="../weapons.html" class="mobile-link">Weapons</a>
+                </li>
+                <li class="mobile-item">
+                  <a href="../units.html" class="mobile-link">Units</a>
+                </li>
+                <li class="mobile-item">
+                  <a href="../techniques.html" class="mobile-link">Techniques</a>
+                </li>
+                <li class="mobile-item">
+                  <a href="../food.html" class="mobile-link">Food</a>
+                </li>
+                <li class="mobile-item">
+                  <a href="../boosts.html" class="mobile-link">Boosts</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="nav">
+            <ul class="nav-links">
+              <li class="nav-item">
+                <a href="../index.html" class="nav-link" aria-current="page">Classes</a>
+              </li>
+              <li class="nav-item">
+                <a href="../teams.html" class="nav-link">Teams</a>
+              </li>
+              <li class="nav-item">
+                <a href="../tier-list.html" class="nav-link">Tier List</a>
+              </li>
+              <li class="nav-item">
+                <a href="../augments.html" class="nav-link">Augment Guide</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  aria-expanded="false"
+                  aria-haspopup="true"
+                  data-toggle="dropdown"
+                  id="navbarDropdown"
+                  role="button"
+                  >Database<i class="arrow down"></i
+                ></a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a href="../weapons.html" class="nav-link">Weapons</a
+                  ><a href="../units.html" class="nav-link">Units</a
+                  ><a href="../techniques.html" class="nav-link">Techniques</a
+                  ><a href="../food.html" class="nav-link">Food</a
+                  ><a href="../boosts.html" class="nav-link">Boosts</a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <section class="container">
+          <div id="nn_skinr"></div>
+          <div id="nn_skinl"></div>
+          <div class="row">
+            <main class="content">
+              <div class="character">
+                <div class="character-intro">
+                  <img
+                    class="character-portrait"
+                    src="../assets/img/class/ranger.png"
+                    alt=""
+                  />
+                  <div class="character-header">
+                    <div class="character-title">
+                      <h1 class="character-name">Ranger</h1>
+                      <img
+                        class="character-element"
+                        src="../assets/img/class/large-wep/ranged.png"
+                        alt=""
+                      />
+                    </div>
+                    <div class="character-path">
+                      ⠀Weapons:
+                    </div>
+                    <div class="character-role">
+                      <img
+                        class="character-path-icon"
+                        src="../assets/img/class/weps/rifle.png"
+                        alt=""
+                      />⠀Rifle
+                    </div>
+                    <div class="character-role">
+                      <img
+                        class="character-path-icon"
+                        src="../assets/img/class/weps/launcher.png"
+                        alt=""
+                      />⠀Launcher
+                    </div>
+                  </div>
+                  <div class="character-build">
+                    <div class="character-build-section">
+                      <h2 class="character-build-section-title">Best Rifles</h2>
+
+                      <a href="../weapons.html">
+                        <div class="character-build-weapon">
+                          <div class="character-build-weapon-rank">1</div>
+
+                          <img
+                            class="character-build-weapon-icon rarity-5"
+                            src="../assets/img/weapons/rifle/NeosAstraeanRifle.png"
+                            alt=""
+                          />
+                          <div class="character-build-weapon-name">
+                            Neos Astraean <span>BIS</span>
+                          </div>
+                        </div>
+                      </a>
+
+                      <a href="../weapons.html">
+                        <div class="character-build-weapon">
+                          <div class="character-build-weapon-rank">2</div>
+                          <img
+                            class="character-build-weapon-icon rarity-4"
+                            src="../assets/img/weapons/rifle/NeosJustiteanRifle.png"
+                            alt=""
+                          />
+                          <div class="character-build-weapon-name">
+                            Neos Justitean
+                          </div>
+                        </div>
+                      </a>
+
+                      <a href="../weapons.html">
+                        <div class="character-build-weapon">
+                          <div class="character-build-weapon-rank">3</div>
+                          <img
+                            class="character-build-weapon-icon rarity-3"
+                            src="../assets/img/weapons/rifle/TenebrousRifle.png"
+                            alt=""
+                          />
+                          <div class="character-build-weapon-name">
+                            Tenebrous <span>Not Recommended</span>
+                          </div>
+                        </div>
+                      </a>
+
+                      <a href="../weapons.html">
+                        <div class="character-build-weapon">
+                          <div class="character-build-weapon-rank">4</div>
+                          <img
+                            class="character-build-weapon-icon rarity-2"
+                            src="../assets/img/weapons/rifle/GunblazeRifle.png"
+                            alt=""
+                          />
+                          <div class="character-build-weapon-name">
+                            Gunblaze <span>Needs High Fixa</span>
+                          </div>
+                        </div>
+                      </a>
+
+                      <a href="../weapons.html">
+                        <div class="character-build-weapon">
+                          <div class="character-build-weapon-rank">5</div>
+                          <img
+                            class="character-build-weapon-icon"
+                            src="../assets/img/weapons/rifle/TrunkulRifle.png"
+                            alt=""
+                          />
+                          <div class="character-build-weapon-name">
+                            Trunkul <span>Seasonal</span>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+
+                    <div class="character-build-section">
+                      <h2 class="character-build-section-title">
+                        Best Launchers
+                      </h2>
+
+                      <a href="../weapons.html">
+                        <div class="character-build-weapon">
+                          <div class="character-build-weapon-rank">1</div>
+
+                          <img
+                            class="character-build-weapon-icon rarity-5"
+                            src="../assets/img/weapons/launcher/NeosAstraeanLauncher.png"
+                            alt=""
+                          />
+                          <div class="character-build-weapon-name">
+                            Neos Astraean <span>BIS</span>
+                          </div>
+                        </div>
+                      </a>
+
+                      <a href="../weapons.html">
+                        <div class="character-build-weapon">
+                          <div class="character-build-weapon-rank">2</div>
+                          <img
+                            class="character-build-weapon-icon rarity-4"
+                            src="../assets/img/weapons/launcher/NeosJustiteanLauncher.png"
+                            alt=""
+                          />
+                          <div class="character-build-weapon-name">
+                            Neos Justitean
+                          </div>
+                        </div>
+                      </a>
+
+                      <a href="../weapons.html">
+                        <div class="character-build-weapon">
+                          <div class="character-build-weapon-rank">3</div>
+                          <img
+                            class="character-build-weapon-icon rarity-3"
+                            src="../assets/img/weapons/launcher/TenebrousLauncher.png"
+                            alt=""
+                          />
+                          <div class="character-build-weapon-name">
+                            Tenebrous <span>Not Recommended</span>
+                          </div>
+                        </div>
+                      </a>
+
+                      <a href="../weapons.html">
+                        <div class="character-build-weapon">
+                          <div class="character-build-weapon-rank">4</div>
+                          <img
+                            class="character-build-weapon-icon rarity-2"
+                            src="../assets/img/weapons/launcher/GunblazeLauncher.png"
+                            alt=""
+                          />
+                          <div class="character-build-weapon-name">
+                            Gunblaze <span>Needs High Fixa</span>
+                          </div>
+                        </div>
+                      </a>
+
+                      <a href="../weapons.html">
+                        <div class="character-build-weapon">
+                          <div class="character-build-weapon-rank">5</div>
+                          <img
+                            class="character-build-weapon-icon"
+                            src="../assets/img/weapons/launcher/TrunkulLauncher.png"
+                            alt=""
+                          />
+                          <div class="character-build-weapon-name">
+                            Trunkul Spear <span>Seasonal</span>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+
+                  <div class="character-build">
+
+                    <div class="character-build-section">
+                      <h2 class="character-build-section-title">Best Units</h2>
+
+                      <a href="../units.html">
+                        <div class="character-build-weapon">
+                          <div class="character-build-weapon-rank">1</div>
+                          <div class="character-build-weapon-content full">
+                            <img
+                              class="character-build-weapon-icon rarity-5"
+                              src="../assets/img/units/EclaireurArmor.png"
+                              alt=""
+                            />
+                            <div class="character-build-weapon-name">
+                              Eclaireur Armor
+                            </div>
+                          </div>
+                        </div>
+                      </a>
+
+                      <a href="../units.html">
+                        <div class="character-build-weapon">
+                          <div class="character-build-weapon-rank">2</div>
+                          <div class="character-build-weapon-content full">
+                            <img
+                              class="character-build-weapon-icon rarity-4"
+                              src="../assets/img/units/AjaxArmor.png"
+                              alt=""
+                            />
+                            <div class="character-build-weapon-name">
+                              Ajax Armor
+                            </div>
+                          </div>
+                        </div>
+                      </a>
+
+                      <a href="../units.html">
+                        <div class="character-build-weapon">
+                          <div class="character-build-weapon-rank">3</div>
+                          <div class="character-build-weapon-content full">
+                            <img
+                              class="character-build-weapon-icon rarity-3"
+                              src="../assets/img/units/EfitusArmorArga.png"
+                              alt=""
+                            />
+                            <div class="character-build-weapon-name">
+                              Efitus Armor Arga <span>Ranged / Melee</span>
+                            </div>
+                          </div>
+                        </div>
+                      </a>
+ 
+                      <a href="../units.html">
+                        <div class="character-build-weapon">
+                          <div class="character-build-weapon-rank">3</div>
+                          <div class="character-build-weapon-content full">
+                            <img
+                              class="character-build-weapon-icon rarity-3"
+                              src="../assets/img/units/EfitusArmorBelta.png"
+                              alt=""
+                            />
+                            <div class="character-build-weapon-name">
+                              Efitus Armor Belta <span>Ranged / Tech</span>
+                            </div>
+                          </div>
+                        </div>
+                      </a>
+
+                      <a href="../units.html">
+                        <div class="character-build-weapon">
+                          <div class="character-build-weapon-rank">4</div>
+                          <div class="character-build-weapon-content full">
+                            <img
+                              class="character-build-weapon-icon rarity-2"
+                              src="../assets/img/units/SchwarzestArmor.png"
+                              alt=""
+                            />
+                            <div class="character-build-weapon-name">
+                              Schwarzest Armor
+                            </div>
+                          </div>
+                        </div>
+                      </a>
+
+
+                    </div>
+                  </div>
+
+                  <div class="character-stats">
+                    <h2 class="character-stats-title">Best Subclasses</h2>
+                    <div class="character-stats-item full">
+                      Force > Bouncer > Techter > Fighter
+                    </div>
+                  </div>
+                  <a
+                    class="character-credit"
+                    href="https://docs.google.com/document/d/1Y84KyvIGpOB2uLEed3pNLWoxitpHZHmnD9y2b_9sl6E/edit"
+                    target="_blank"
+                    >Class Builds by イヴ & Kasumi →</a
+                  >
+                </div>
+                <div class="character-navigation">
+                  <a class="character-navigation-link">Teams</a
+                  ><a class="character-navigation-link">Passives</a
+                  ><a class="character-navigation-link">Actives</a
+                  ><a class="character-navigation-link">Showcase</a>
+                </div>
+                <div class="character-teams" id="teams">
+                  <h2 class="character-category">Example Teams</h2>
+                  <div class="character-team">
+                    <div class="character-team-name">Ranger is needed in every team lol</div>
+                    <div class="character-team-characters">
+                      <a href="ranger.html" class="character-portrait"
+                      ><img
+                        alt=""
+                        class="character-icon ranged"
+                        src="../assets/img/class/ranger.png"
+                      /></a
+                    >
+
+                    <a href="gunner.html" class="character-portrait"
+                      ><img
+                        alt=""
+                        class="character-icon ranged"
+                        src="../assets/img/class/gunner.png"
+                      /></a
+                    >
+
+                    <a href="fighter.html" class="character-portrait"
+                      ><img
+                        alt=""
+                        class="character-icon melee"
+                        src="../assets/img/class/fighter.png"
+                      /></a
+                    >
+
+                    <a href="braver.html" class="character-portrait"
+                      ><img
+                        alt=""
+                        class="character-icon melee"
+                        src="../assets/img/class/braver.png"
+                      /></a
+                    >
+                    </div>
+                  </div>
+                  
+
+
+                </div>
+                <div class="character-skills" id="passives">
+                  <h2 class="character-category">Passive Skills</h2>
+                  <div class="character-skill">
+                    <div class="character-skill-header">
+                      <img
+                        class="character-skill-icon"
+                        src="../assets/img/skills/ranger/BlightRoundsReinforce.png"
+                        alt=""
+                      />
+                      <h3 class="character-skill-title">DPS</h3>
+                    </div>
+                    <div class="character-skill-body">
+                      <h4 class="character-skill-name">Blight Rounds Reinforce</h4>
+                      <div class="character-skill-description">
+                        Parts hit by Blight Rounds that are hit a set number of times will take increased damage, and the effect duration of the skill will be extended.
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="character-skill">
+                    <div class="character-skill-header">
+                      <img
+                        class="character-skill-icon"
+                        src="../assets/img/skills/ranger/LauncherBlightRounds.png"
+                        alt=""
+                      />
+                      <h3 class="character-skill-title">DPS</h3>
+                    </div>
+                    <div class="character-skill-body">
+                      <h4 class="character-skill-name">Launcher Blight Rounds</h4>
+                      <div class="character-skill-description">
+                        Allows you to use Blight Rounds while equipped with a launcher.
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="character-skill">
+                    <div class="character-skill-header">
+                      <img
+                        class="character-skill-icon"
+                        src="../assets/img/skills/ranger/SpreadShotWideRange.png"
+                        alt=""
+                      />
+                      <h3 class="character-skill-title">DPS</h3>
+                    </div>
+                    <div class="character-skill-body">
+                      <h4 class="character-skill-name">Spread Shot Wide Range</h4>
+                      <div class="character-skill-description">
+                        Changes Spread Shot to an area-of-effect attack to your front.
+                      </div>
+                    </div>
+                  </div>
+
+                
+                </div>
+                <!-- Active Skills -->
+                <div class="character-skills" id="actives">
+                  <h2 class="character-category">Active Skills</h2>
+                  <div class="character-skill">
+                    <div class="character-skill-header">
+                      <img
+                        class="character-skill-icon"
+                        src="../assets/img/skills/ranger/BlightRounds.png"
+                        alt="Flower of Eden"
+                      />
+                      <h3 class="character-skill-title">DPS</h3>
+                    </div>
+                    <div class="character-skill-body">
+                      <h4 class="character-skill-name">Blight Rounds</h4>
+                      <div class="character-skill-description">
+                        Fires a bullet that increases damage dealt to the hit part.
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="character-skill">
+                    <div class="character-skill-header">
+                      <img
+                        class="character-skill-icon"
+                        src="../assets/img/skills/ranger/WideRangeBlightRounds.png"
+                        alt="Flower of Eden"
+                      />
+                      <h3 class="character-skill-title">DPS</h3>
+                    </div>
+                    <div class="character-skill-body">
+                      <h4 class="character-skill-name">Wide Range Blight Rounds</h4>
+                      <div class="character-skill-description">
+                        Fires rounds that increases damage dealt to any part hit in a wide area of effect.
+                        This skill draws from the same number of uses and cooldown time of ordinary Blight Rounds.
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="character-skill">
+                    <div class="character-skill-header">
+                      <img
+                        class="character-skill-icon"
+                        src="../assets/img/skills/ranger/SpreadShot.png"
+                        alt="Flower of Eden"
+                      />
+                      <h3 class="character-skill-title">DPS</h3>
+                    </div>
+                    <div class="character-skill-body">
+                      <h4 class="character-skill-name">Spread Shot</h4>
+                      <div class="character-skill-description">
+                        Expend a gauge built up by attacks to fire a special close range shotgun blast.
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="character-skill">
+                    <div class="character-skill-header">
+                      <img
+                        class="character-skill-icon"
+                        src="../assets/img/skills/ranger/LauncherAttackReinforce.png"
+                        alt="Flower of Eden"
+                      />
+                      <h3 class="character-skill-title">DPS</h3>
+                    </div>
+                    <div class="character-skill-body">
+                      <h4 class="character-skill-name">Launcher Attack Reinforce</h4>
+                      <div class="character-skill-description">
+                        Increases the potency and speed of uncharged Normal Attacks for a set time.
+                      </div>
+                    </div>
+                  </div>
+
+
+                  
+                </div>
+                <p id="showcase"></p>
+                <h2 class="character-category">Video Showcase</h2>
+                <div class="character-showcase">
+                  <div class="character-showcase-credit">
+                    Video guide by
+                    <a href="https://www.youtube.com/@ZNRenova" target="_blank"
+                      >ZNRenova</a
+                    >.
+                    <a href="https://www.youtube.com/@ZNRenova" target="_blank"
+                      >Check out his content!</a
+                    >
+                  </div>
+                  <iframe
+                    class="character-showcase-video"
+                    frameborder="0"
+                    src="https://www.youtube.com/embed/BIdzkJJ46_g"
+                  ></iframe>
+                </div>
+              </div>
+            </main>
+          </div>
+        </section>
+        <footer class="footer">
+          <div class="container">
+            <div class="row">
+              <div class="col-12 col-md-5">
+                <div class="footer-meta">
+                  <a href="../index.html"
+                    ><img
+                      alt="brand"
+                      class="footer-logo"
+                      src="../assets/img/page/brand-icon.png"
+                  /></a>
+                  <p class="footer-description">
+                    <b>NGS.GG</b> is not affiliated with or endorsed by SEGA.
+                    <b>NGS.GG</b> is a Database and Tier List for the
+                    <b>Phantasy Star Online 2: New Genesis</b> game for PC, Xbox
+                    One, and Playstation 4.
+                  </p>
+                </div>
+              </div>
+              <div class="col-12 col-sm-6 col-md-2 offset-md-1">
+                <h2 class="footer-link-title">More Links</h2>
+                <ul class="footer-link-list">
+                  <li class="footer-link-item">
+                    <a
+                      class="footer-link"
+                      href="https://pso2na.arks-visiphone.com/wiki/Portal:New_Genesis"
+                      >Wiki</a
+                    >
+                  </li>
+                  <li class="footer-link-item">
+                    <a
+                      class="footer-link"
+                      href="https://pso2na.arks-visiphone.com/wiki/Portal:New_Genesis/Full_Setwear"
+                      >Fashion</a
+                    >
+                  </li>
+                  <li class="footer-link-item">
+                    <a
+                      class="footer-link"
+                      href="https://pso2na.arks-visiphone.com/wiki/Portal:New_Genesis/AC_Scratches"
+                      >AC Scratches</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <div class="col-12 col-sm-6 col-md-2 offset-md-1">
+                <h2 class="footer-link-title">Community Links</h2>
+                <ul class="footer-link-list">
+                  <li class="footer-link-item">
+                    <a
+                      class="footer-link"
+                      href="https://discord.com/invite/PSO2"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                      >Discord</a
+                    >
+                  </li>
+                  <li class="footer-link-item">
+                    <a
+                      class="footer-link"
+                      href="https://www.reddit.com/r/PSO2/"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                      >Reddit</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </footer>
+        <div id="nn_player"></div>
+      </div>
+    </div>
+  </body>
+
+  <script src="assets/js/alt.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.3/umd/popper.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.2/js/bootstrap.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      $(".dropdown-toggle").hover(
+        function () {
+          $(this).next(".dropdown-menu").stop().show();
+        },
+        function () {
+          $(this).next(".dropdown-menu").stop().hide();
+        }
+      );
+
+      $(".dropdown-menu").hover(
+        function () {
+          $(this).stop().show();
+        },
+        function () {
+          $(this).stop().hide();
+        }
+      );
+    });
+  </script>
+  <script>
+    const hamburger = document.querySelector(".hamburger");
+    const mobileMenu = document.querySelector(".mobile-menu");
+
+    hamburger.addEventListener("click", function () {
+      mobileMenu.classList.toggle("open");
+      this.classList.toggle("is-active");
+    });
+  </script>
+  <script>
+    const teamsButton = document.querySelector(
+      ".character-navigation-link:nth-child(1)"
+    );
+    const passivesButton = document.querySelector(
+      ".character-navigation-link:nth-child(2)"
+    );
+    const activesButton = document.querySelector(
+      ".character-navigation-link:nth-child(3)"
+    );
+    const showcaseButton = document.querySelector(
+      ".character-navigation-link:nth-child(4)"
+    );
+
+    teamsButton.addEventListener("click", () => {
+      const teamsSection = document.querySelector("#teams");
+      teamsSection.scrollIntoView({ behavior: "smooth" });
+    });
+
+    passivesButton.addEventListener("click", () => {
+      const passivesSection = document.querySelector("#passives");
+      passivesSection.scrollIntoView({ behavior: "smooth" });
+    });
+
+    activesButton.addEventListener("click", () => {
+      const activesSection = document.querySelector("#actives");
+      activesSection.scrollIntoView({ behavior: "smooth" });
+    });
+
+    showcaseButton.addEventListener("click", () => {
+      const showcaseSection = document.querySelector("#showcase");
+      showcaseSection.scrollIntoView({ behavior: "smooth" });
+    });
+  </script>
+</html>

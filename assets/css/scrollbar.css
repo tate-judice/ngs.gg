@@ -1,0 +1,36 @@
+/* Desktop styles */
+@media (min-width: 992px) {
+      
+    body {
+        overflow: overlay;
+      }
+      
+      .div1 {
+        background: grey;
+        margin-top: 200px;
+        margin-bottom: 20px;
+        height: 20px;
+      }
+      
+      ::-webkit-scrollbar {
+        width: 10px;
+        height: 10px;
+      }
+      
+      ::-webkit-scrollbar-thumb {
+        background: #303b7a;
+        border-radius: 10px;
+      }
+      
+      ::-webkit-scrollbar-track {
+        background: rgba(0, 0, 0, 0);
+        border-radius: 10px;
+      }
+  }
+  
+  /* Mobile styles */
+  @media (max-width: 991.98px) {
+    ::-webkit-scrollbar {
+      display: none;
+    }
+  }
