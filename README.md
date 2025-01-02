@@ -43,14 +43,14 @@ cd ps02-ngs-guide
 
 1. Open `index.html` to access the main page.
 2. Navigate the site using the header menu:
-   - **Classes:** Overview of all available classes&#8203;:contentReference[oaicite:0]{index=0}.  
-   - **Teams:** Strategies and team-building tips&#8203;:contentReference[oaicite:1]{index=1}.  
-   - **Tier List:** Ranking of classes and weapons&#8203;:contentReference[oaicite:2]{index=2}.  
-   - **Augments:** Guide to optimizing your augments&#8203;:contentReference[oaicite:3]{index=3}.  
-   - **Weapons:** Detailed database of weapons&#8203;:contentReference[oaicite:4]{index=4}.  
-   - **Units:** Comprehensive unit guide&#8203;:contentReference[oaicite:5]{index=5}.  
-   - **Techniques:** Explanation of elemental techniques&#8203;:contentReference[oaicite:6]{index=6}.  
-   - **Food and Boosts:** Enhance gameplay performance&#8203;:contentReference[oaicite:7]{index=7}&#8203;:contentReference[oaicite:8]{index=8}.  
+   - **Classes:** Overview of all available classes.  
+   - **Teams:** Strategies and team-building tips.  
+   - **Tier List:** Ranking of classes and weapons.  
+   - **Augments:** Guide to optimizing your augments.  
+   - **Weapons:** Detailed database of weapons.  
+   - **Units:** Comprehensive unit guide.  
+   - **Techniques:** Explanation of elemental techniques.  
+   - **Food and Boosts:** Enhance gameplay performance.  
 
 ```bash
 # Example: Start a local server (optional)
