@@ -28,7 +28,7 @@ Ensure you have the following:
 1. Clone or download the project repository:
 
 ```bash
-git clone https://github.com/yourusername/ps02-ngs-guide.git
+git clone https://github.com/tate-judice/ngs.gg.git
 ```
 
 2. Navigate to the project folder:
