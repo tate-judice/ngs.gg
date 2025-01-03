@@ -68,12 +68,6 @@ For common issues:
 # Check the console in browser developer tools (Ctrl+Shift+I)
 ```
 
-## Authors
-
-- **Tate Judice**  
-- Website: [ngs.gg](https://tate-judice.github.io/ngs.gg/)
-- Contact: [tate.judice@gmail.com](mailto:tate.judice@gmail.com)  
-
 ## Version History
 
 - **1.0**  
